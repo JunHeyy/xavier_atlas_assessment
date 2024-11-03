@@ -9,4 +9,6 @@ https://east-sunstone-2c4.notion.site/Atlas-Online-Restaurant-Simulation-13277d6
 
 Thank you looking through my project, your time is appreciated
 
+To run it simply use rails s
+
 
