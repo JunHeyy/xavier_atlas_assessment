@@ -1,0 +1,30 @@
+# Install the PostgreSQL driver
+#   gem install pg
+#
+# Ensure the PostgreSQL gem is defined in your Gemfile
+#   gem "pg"
+#
+# Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
+# for a full overview on how database connection configuration can be specified.
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: root # replace with your PostgreSQL username
+  password: password # set your password here, or use ENV for security
+  host: localhost
+
+development:
+  <<: *default
+  database: atlas_assessment_development
+
+test:
+  <<: *default
+  database: atlas_assessment_test
+
+production:
+  <<: *default
+  database: atlas_assessment_production
+  username: <%= ENV["ATLAS_ASSESSMENT_DATABASE_USERNAME"] %>
+  password: <%= ENV["ATLAS_ASSESSMENT_DATABASE_PASSWORD"] %>
