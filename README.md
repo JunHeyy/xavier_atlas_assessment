@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Dear Hiring Manager,
 
-Things you may want to cover:
+The following Github repository is Ruby and Rails with GraphQL. 
 
-* Ruby version
+For the whole explaination please view:
+https://east-sunstone-2c4.notion.site/Atlas-Online-Restaurant-Simulation-13277d6fb6e6800a97bec11612627df8?pvs=73
 
-* System dependencies
+Thank you looking through my project, your time is appreciated
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
